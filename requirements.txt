@@ -1,4 +1,6 @@
-﻿altair==4.1.0
+streamlit
+snowflake-connector-python
+altair==4.1.0
 appdirs==1.4.4
 astor==0.8.1
 attrs==19.3.0
