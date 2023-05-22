@@ -11,7 +11,7 @@ def connect_to_snowflake(acct, usr, pwd, rl, wh, db):
   ctx = st.connect(user=usr,account=acct,password=ped,role=rl,warehouse=wh,database=db)
   cs = ctx.cursor()
   st.session_state['snow_conn'] = cs
-  st.session_state['is_ready] = True
+  st.session_state['is_ready'] = True
   return cs
 def get_data():
   query = 'SELECT * FROM PETS.PUBLIC.RESTAURANTS:'
